@@ -50,7 +50,7 @@ git clone https://github.com/anugrehh/feedback-collector.git
 ```bash
 npm install
 ```
-4. Start server
+3. Start server
    
 ```bash
-   node server.js
+node server.js
