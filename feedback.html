@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Collector</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <button id="darkModeBtn">
+    🌙 Dark Mode
+</button>
+        <h1>Feedback Collector</h1>
+
+        <label for="name">Name</label>
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter your name">
+
+        <label for="message">Feedback Message</label>
+        <textarea
+            id="message"
+            placeholder="Enter your feedback">
+        </textarea>
+        <label>Rating</label>
+
+    <select id="rating">
+        <option value="1">⭐</option>
+        <option value="2">⭐⭐</option>
+        <option value="3">⭐⭐⭐</option>
+        <option value="4">⭐⭐⭐⭐</option>
+        <option value="5">⭐⭐⭐⭐⭐</option>
+    </select>
+
+        <button id="submitBtn">
+            Submit Feedback
+        </button>
+
+        
+        <input
+    type="text"
+    id="searchInput"
+    placeholder="Search Feedbacks">
+
+
+        <h2>Feedbacks</h2>
+        <p id="counter">Total Feedbacks: 0</p>
+
+        <div id="feedbackList"></div>
+    
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</p>
+
+</body>
+
+</html>
