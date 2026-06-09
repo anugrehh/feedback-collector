@@ -15,6 +15,19 @@ A Full Stack Feedback Collection Application built using HTML, CSS, JavaScript, 
 ~ Dark Mode Toggle
 
 ~ MongoDB Atlas Integration
+## Screenshots
+
+### Feedback Form
+![Feedback Form](screenshots/form.png)
+
+### Feedback List
+![Feedback List](screenshots/feedback-list.png)
+
+### Dark Mode
+![Dark Mode](screenshots/darkmode.png)
+
+### MongoDB Database
+![MongoDB](screenshots/mongodb.png)
 
 ## Technologies Used
 
