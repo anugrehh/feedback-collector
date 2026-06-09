@@ -46,6 +46,8 @@ feedback-collector/
 git clone https://github.com/anugrehh/feedback-collector.git
 ```
 2. Install dependencies
+   ```bash
    npm install
-3. Start server
+4. Start server
+    ```bash
    node server.js
